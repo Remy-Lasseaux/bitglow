@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+/* ...................  */
+
+/* HAUT DE PAGE NAV  */
+
+body {
+  margin: 0 10%;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.market {
+  font-weight: 600;
+}
+
+.download {
+  color: inherit;
+}
+
+.email {
+  margin-top: 1rem;
+}
+
+/* FIN DE PAGE  */
+
+footer {
+  justify-content: space-between;
+}
+
+/* first  */
+
+.first {
+  background: #fea500;
+  color: white;
+
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+  height: 200px;
+}
+
+.first img {
+  width: 60%;
+  object-fit: contain;
+}
+
+/* second  */
+
+.second {
+  background: #add8e8;
+  color: white;
+
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+  height: 200px;
+}
+
+/* third  */
+
+.third {
+  background: #ffb6c1;
+  color: white;
+
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1.5rem;
+
+  height: 200px;
+}
+
+@media screen and (max-width: 1401px) {
+  .first,
+  .second,
+  .third {
+    width: 51%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .first,
+  .second,
+  .third {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
